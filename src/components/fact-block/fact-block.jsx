@@ -29,6 +29,7 @@ export function FactBlock() {
 
   return (
     <section className="fact-block-container">
+      <h2>Cat Facts</h2>
       <button type="button" onClick={handleClick}>
         Get Fact
       </button>
