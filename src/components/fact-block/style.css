@@ -1,0 +1,12 @@
+.fact-block-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.fact-block-textarea {
+  width: 40%;
+  height: 100px;
+  resize: none;
+}
