@@ -30,7 +30,7 @@ export function FactBlock() {
   return (
     <section className="fact-block-container">
       <button type="button" onClick={handleClick}>
-        Press Me
+        Get Fact
       </button>
       <textarea
         ref={ref}
