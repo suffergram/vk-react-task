@@ -34,6 +34,8 @@ export function AgeBlock() {
   };
 
   const handleChange = (event) => {
+    const newName = event.target.value;
+    if (!newName.match(/^[a-zA-Z]+$/)) return;
     setName(event.target.value);
     request();
   };
